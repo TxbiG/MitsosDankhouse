@@ -1,0 +1,172 @@
+header {
+  background-image: url();
+  color: white;
+}
+
+.main{
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("../img/artwork/mitsosminigunman.jfif");
+  image-rendering:optimizeSpeed;
+  margin: 0;
+  padding-top: 5em;
+  height: 100%;
+}
+.main div{
+  color: white;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  margin-bottom: 30em;
+  margin-top: 6em;
+}
+.main svg {
+  margin-bottom: -5px;
+}
+.main li{
+  display: inline-block;
+}
+.main a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.main a:hover {
+  color: #e05818;
+  border-bottom: 2px solid #e05818;
+}
+
+
+
+.Page{
+  margin: 0;
+  padding: 0;
+  background-position:top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("../img/background.png");
+}
+
+#portfolios{
+  background-color: #f1f1f1;
+  text-align: center;
+  padding-top: 10px;
+  height: min-content;
+}
+#portfolios h1{
+  font-size: 40px;
+}
+#portfolios ul{
+  margin: 0;
+  padding: 0;
+}
+#portfolios li{
+  display: inline-block;
+  margin: 120px 20px;
+  transition: 0.4s;
+  height: auto;
+}
+#portfolios li a{
+  border-radius: 20px;
+  padding: 100px 130px;
+  color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.4s;
+  box-shadow: 5px 0px 10px black;
+}
+#portfolios li:hover{
+  transform: scale(1.1);
+}
+#portfolios a:hover{
+  color: #e05818;
+}
+
+#portfolio3D
+{
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/steamworks/mitsoscs4.jfif");
+}
+#portfolioGraphicsDesign
+{
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/artwork/mitsosminigunman.jfif");
+}
+#portfolioFilm
+{
+  background-image: url("../img/steamworks/mitsoscs4.jfif");
+}
+
+
+#professionalProjects {
+  background-color: #c9c9c9;
+  text-align: center;
+}
+
+/*    Skills    */
+#skills{
+  background-color: #fff;
+  text-align: center;
+}
+#skills li{
+  display: inline-block;
+  margin: 5px 10px;
+  text-align: center;
+  list-style-type: none;
+  vertical-align: text-top;
+}
+#skills ul {
+  margin: 0;
+}
+#skills h1{
+  color: #161616;
+}
+#skills ul img{
+  width: 80px;
+  height: 80px;
+  margin: 5px 0px;
+  transition: 0.4s;
+}
+#skills ul img:hover{
+  transform: scale(1.2);
+}
+
+.hovertext{
+  position:relative;
+  z-index: 1;
+}
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  transition: opacity 0.4s ease-in-out;
+
+  position: absolute;
+  font-size: 14px;
+  right: -40px;
+  bottom: 90px;
+}
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}

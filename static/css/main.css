@@ -1,0 +1,156 @@
+html {
+  scroll-behavior: smooth;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+  
+body {
+  background: black;
+  font-family: Arial, Helvetica, sans-serif; /* The added font requested */
+  margin: 0;
+  padding: 0;
+  overflow: overlay;
+  overflow-x:hidden;
+}
+  
+nav {
+  position: absolute;
+  background-color: none;
+  padding: 0;
+  text-align: center;
+  overflow-y: hidden;
+  width: 100%;
+  height: 100px;
+  float: top;
+  margin-right: 100px;
+}
+nav div {
+  top: 0;
+  position: absolute;
+  height: auto;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+nav img {
+  display: block;
+  float: right;
+  height: auto;
+  width: 150px;
+  right: 0;
+  margin-bottom: -100px;
+}
+nav ul {
+  padding: 0;
+  display: inline-block;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+nav li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+nav a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+nav a:hover{
+  color: #e05818;
+}
+nav i:hover{
+  color: #e05818;
+  transform: scale(1.2);
+}
+
+nav ul li a i {
+  margin-top: 20px;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+/* Footer Style */
+footer {
+  background-color: #fff;
+  text-align: center;
+  width: 100%;
+}
+footer span{
+  display: block;
+  vertical-align: middle;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+footer div{
+  padding: 10px 100px;
+  background-color: rgb(22, 22, 22);
+  color: #c6c6c6;
+}
+footer img{
+  display: block;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  filter: invert(20%);
+}
+footer ul{
+  text-align: center;
+  padding: 0;
+  margin-top: 5px;
+}
+footer li{
+  padding: 0 20px;
+  display: inline-block;
+}
+footer i{
+  font-size: 30px;
+  color: #c6c6c6;
+  transition: 0.3s;
+}
+footer svg{
+  color: #161616;
+  margin-bottom: -5px;
+}
+footer i:hover{
+  color: #e05818;
+  transform: scale(1.2);
+}
+.copy--footer{
+  padding: 0;
+}
+  
+/*Scroll bar style */
+::-webkit-scrollbar{
+    width: 0.5em;
+}
+::-webkit-scrollbar-thumb{
+  background: #656565;
+  border-radius: 0.5em;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #585858;
+}
+  
+/* Get the custom font */
+@font-face {
+  font-family: Evolventa;
+  src: url(Evolventa-Bold.ttf);
+}
+
+.waves {
+  height: 11vh;
+  left: 0;
+  margin-bottom: -5px;
+  max-height: 100px;
+  min-height: 60px;
+  position: relative;
+  top: 0;
+  width: 100%;
+}

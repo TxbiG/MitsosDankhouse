@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mitsos Dankhouse • Film</title>
+    <link rel="icon" href="{{ url_for('static', filename='img/icon/Logo.ico') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/Film.css') }}" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+</head>
+<body>
+    <nav>
+        <div style="left: 0; width: 20%;">
+            <img src="{{ url_for('static', filename='img/Logo1.png') }}" />
+        </div>
+        <div style="left: 0; right: 0;">
+            <ul>
+                <li><a href="{{url_for('index')}}">Home</a></li>
+                <li><a href="{{url_for('about')}}">About</a></li>
+                <li><a href="{{url_for('renders')}}">3D</a></li>
+                <li><a href="{{url_for('graphicdesign')}}">Graphics-Design</a></li>
+                <li><a style="color: #e05818" href="{{url_for('film')}}">Film</a></li>
+                <li><a href="https://www.inprnt.com/profile/mitsosdankhouse/" target="_blank"><p>Store</p></a></li>
+                <li><a href="Resume.pdf" download>Rèsumè</a></li>
+            </ul>
+        </div>
+        <div style="right: 0;">
+            <ul style="margin-right: 100px;">
+                <li><a href="https://www.instagram.com/mitsosdankhouse/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/MitsosDankhouse" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://www.artstation.com/mitsosart" target="_blank"><i class="fa-brands fa-artstation"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main">
+        <div style="bottom: 0; position: relative;"></div>
+        <svg class="waves" preserveAspectRatio="none" viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0,0L60,11.7C120,23,240,47,360,46.7C480,47,600,23,720,20C840,17,960,33,1080,45C1200,57,1320,63,1440,65C1560,67,1680,63,1800,53.3C1920,43,2040,27,2160,30C2280,33,2400,57,2520,66.7C2640,77,2760,73,2880,61.7C3000,50,3120,30,3240,26.7C3360,23,3480,37,3600,46.7C3720,57,3840,63,3960,70C4080,77,4200,83,4320,83.3C4440,83,4560,77,4680,73.3C4800,70,4920,70,5040,61.7C5160,53,5280,37,5400,31.7C5520,27,5640,33,5760,36.7C5880,40,6000,40,6120,46.7C6240,53,6360,67,6480,71.7C6600,77,6720,73,6840,61.7C6960,50,7080,30,7200,33.3C7320,37,7440,63,7560,75C7680,87,7800,83,7920,68.3C8040,53,8160,27,8280,23.3C8400,20,8520,40,8580,50L8640,60L8640,100L8580,100C8520,100,8400,100,8280,100C8160,100,8040,100,7920,100C7800,100,7680,100,7560,100C7440,100,7320,100,7200,100C7080,100,6960,100,6840,100C6720,100,6600,100,6480,100C6360,100,6240,100,6120,100C6000,100,5880,100,5760,100C5640,100,5520,100,5400,100C5280,100,5160,100,5040,100C4920,100,4800,100,4680,100C4560,100,4440,100,4320,100C4200,100,4080,100,3960,100C3840,100,3720,100,3600,100C3480,100,3360,100,3240,100C3120,100,3000,100,2880,100C2760,100,2640,100,2520,100C2400,100,2280,100,2160,100C2040,100,1920,100,1800,100C1680,100,1560,100,1440,100C1320,100,1200,100,1080,100C960,100,840,100,720,100C600,100,480,100,360,100C240,100,120,100,60,100L0,100Z"></path></svg>
+    </div>
+</body>
+<footer>
+    <span>
+        <a href="{{url_for('index')}}"><img src="{{ url_for('static', filename='img/Logo1.png') }}" /></a>
+    </span>
+    <svg viewBox="0 0 1440 80" class="waves" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path fill="#161616" d="M0,10L40,21.7C80,33,160,57,240,66.7C320,77,400,73,480,61.7C560,50,640,30,720,31.7C800,33,880,57,960,61.7C1040,67,1120,53,1200,45C1280,37,1360,33,1440,31.7C1520,30,1600,30,1680,33.3C1760,37,1840,43,1920,40C2000,37,2080,23,2160,26.7C2240,30,2320,50,2400,48.3C2480,47,2560,23,2640,13.3C2720,3,2800,7,2880,8.3C2960,10,3040,10,3120,10C3200,10,3280,10,3360,10C3440,10,3520,10,3600,13.3C3680,17,3760,23,3840,31.7C3920,40,4000,50,4080,55C4160,60,4240,60,4320,55C4400,50,4480,40,4560,30C4640,20,4720,10,4800,6.7C4880,3,4960,7,5040,18.3C5120,30,5200,50,5280,51.7C5360,53,5440,37,5520,28.3C5600,20,5680,20,5720,20L5760,20L5760,100L5720,100C5680,100,5600,100,5520,100C5440,100,5360,100,5280,100C5200,100,5120,100,5040,100C4960,100,4880,100,4800,100C4720,100,4640,100,4560,100C4480,100,4400,100,4320,100C4240,100,4160,100,4080,100C4000,100,3920,100,3840,100C3760,100,3680,100,3600,100C3520,100,3440,100,3360,100C3280,100,3200,100,3120,100C3040,100,2960,100,2880,100C2800,100,2720,100,2640,100C2560,100,2480,100,2400,100C2320,100,2240,100,2160,100C2080,100,2000,100,1920,100C1840,100,1760,100,1680,100C1600,100,1520,100,1440,100C1360,100,1280,100,1200,100C1120,100,1040,100,960,100C880,100,800,100,720,100C640,100,560,100,480,100C400,100,320,100,240,100C160,100,80,100,40,100L0,100Z"></path></svg>
+    <div>
+        <ul>
+            <li><a href="https://www.instagram.com/mitsosdankhouse/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/MitsosDankhouse" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="https://www.artstation.com/mitsosart" target="_blank"><i class="fa-brands fa-artstation"></i></a></li>
+        </ul>
+        <div class="copy--footer">
+            <p>&copy; Mitsos Dankhouse All rights reserved. {{year}}</p>
+        </div>
+    </div>
+</footer>
+</html>

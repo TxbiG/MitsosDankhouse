@@ -1,0 +1,24 @@
+body {
+  color: black;
+}
+.main{
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("../img/artwork/mitsossitting.jfif");
+  image-rendering:optimizeSpeed;
+  margin: 0;
+  padding-top: 5em;
+  height: 100%;
+}
+.main div{
+  color: white;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  margin-bottom: 45em;
+  margin-top: 6em;
+}
